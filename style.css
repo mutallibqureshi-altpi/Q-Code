@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.container img {
+.about-img img {
   height: 314px;
 }
 
@@ -20,4 +20,19 @@
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+.text-body-secondary{
+  color: black;
+}
+.text-body-secondary:hover{
+  color: grey;
+}
+
+@media (max-width:765){
+  .company {
+    background-color: red !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
